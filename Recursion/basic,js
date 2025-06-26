@@ -1,0 +1,52 @@
+
+//Print name n times using recursion
+
+// Time Complexity O(N)
+// Space Complexity O(N)
+
+function printName(n) {
+   if(n===0) return 
+   console.log('Sonal')
+   printName(n - 1)
+}
+
+// printName(5)
+
+// Print linerly from 1 to N
+
+function printNumber(n,current=1) { 
+   if(current > n) return
+   console.log(current)
+   printNumber(n,current + 1)  
+}
+// printNumber(5)
+
+// From N to 1 
+
+function printRevNumbers(n) {
+    if(n < 1) return;
+    console.log(n);
+    printRevNumbers(n - 1)
+}
+
+// printRevNumbers(7)
+
+// Print linerly from 1 to N (By backtrack)
+
+function PrintNumBacktrack(n) {
+    if(n < 1) return;
+    PrintNumBacktrack(n - 1);
+    console.log(n)
+}
+
+// PrintNumBacktrack(10)
+
+// Print linerly from N to 1 (By backtrack)
+
+function printRevNumBack(n,current=1) {
+    if(n < current) return
+    printRevNumBack(n,current+1)
+    console.log(current)
+}
+
+printRevNumBack(6)
