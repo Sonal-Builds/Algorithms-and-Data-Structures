@@ -1,6 +1,5 @@
-Given an integer array nums, move all 0's to the end of it while maintaining the relative order of the non-zero elements.
-
-Note that you must do this in-place without making a copy of the array.
+//Given an integer array nums, move all 0's to the end of it while maintaining the relative order of the non-zero elements.
+//Note that you must do this in-place without making a copy of the array.
 
 // 1. Brute Force Move and Shift
 
@@ -20,7 +19,7 @@ var moveZeroes = function(nums) {
     }
 };
 
-// Optimized Two-Pointer Approach
+// 2. Optimized Two-Pointer Approach
 
 var moveZeroes = function(nums) {
     let i = 0;
