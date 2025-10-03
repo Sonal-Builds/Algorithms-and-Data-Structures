@@ -1,12 +1,8 @@
- 1 [Move Zeroes](#move-zeroes)
-
- 2 [Majority Element](#majority-element)
-
- 3 [Move Zeroes](#move-zeroes)
-
- 4 [Move Zeroes](#move-zeroes)
- 
- 5 [Move Zeroes](#move-zeroes)
+ 1. [Move Zeroes](#move-zeroes)
+ 2. [Majority Element](#majority-element)
+ 3. [Move Zeroes](#move-zeroes)
+ 4. [Move Zeroes](#move-zeroes)
+ 5. [Move Zeroes](#move-zeroes)
 
 
 # Move Zeroes
