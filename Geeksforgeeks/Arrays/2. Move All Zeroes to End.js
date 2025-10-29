@@ -26,6 +26,16 @@ function pushZerosToEnd(arr) {
     return arr
 }
 
+/*
+| Approach              | In-place | Best For                 | Notes                           |
+| --------------------- | -------- | ------------------------ | ------------------------------- |
+| Loop (your first one) | ✅ Yes    | Performance & interviews | `O(n)` time / `O(1)` space      |
+| Filter + Concat       | ❌ No     | Readability / ES6 style  | `O(n)` time / `O(n)` space      |
+| Swap version          | ✅ Yes    | Efficient + elegant      | Slightly advanced pointer logic |
+
+
+*/
+
 // Move All Zeros to Start not considering non-zero elements order
 
 function pushZerosToStart(arr) {
