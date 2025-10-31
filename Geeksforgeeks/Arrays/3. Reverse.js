@@ -18,7 +18,7 @@ function ReverseArr(arr) {
     let left = 0;
     let right = arr.length - 1;
 
-    while(left <= right) {
+    while(left < right) {
         [arr[left],arr[right]] = [arr[right],arr[left]]
         left++;
         right--;
@@ -27,3 +27,19 @@ function ReverseArr(arr) {
 }
 
 console.log(ReverseArr(Arr))
+
+/* 
+| Metric | Value                 |
+| ------ | --------------------- |
+| Time   | **O(n/2)** → **O(n)** |
+| Space  | **O(1)** (in-place)   |
+
+*/
+
+/*
+| Feature                    | `arr.reverse()`                       | Custom Function                                             |
+| -------------------------- | ------------------------------------- | ----------------------------------------------------------- |
+| **Space Complexity**       | O(1)                                  | O(1)                                                        |
+| **Time Complexity**        | O(n)                                  | O(n)                                                        |
+
+*/
